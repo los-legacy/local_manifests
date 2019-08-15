@@ -1,3 +1,5 @@
 # local_manifests
 
-jfvelte repopick -f 250250 253025
+. build/envsetup.sh
+repopick -f 250250
+brunch jfvelte
