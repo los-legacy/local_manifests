@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--Device tree-->
+  <project name="los-legacy/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <project name="los-legacy/android_device_samsung_herolte" path="device/samsung/herolte" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <project name="los-legacy/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <!--Hardware-->
+  <project name="los-legacy/android_hardware_samsung" path="hardware/samsung" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <!--Kernel-->
+  <project name="los-legacy/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <!--Blobs-->
+  <project name="los-legacy/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="Exynos8890Dev" revision="lineage-17.0"/>
+  <project name="los-legacy/proprietary_vendor_seal_seal" path="vendor/seal/seal" remote="Exynos8890Dev" revision="lineage-17.0"/>
+</manifest>
