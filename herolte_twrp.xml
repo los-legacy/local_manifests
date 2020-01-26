@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="exynos8890dev-twrp" fetch="https://gitlab.com/exynos8890dev/twrp/" />
+  <!--Device tree-->
+  <project name="device_samsung_hero2lte" path="device/samsung/hero2lte" remote="exynos8890dev-twrp" revision="android-8.1"/>
+  <project name="device_samsung_herolte" path="device/samsung/herolte" remote="exynos8890dev-twrp" revision="android-8.1"/>
+  <!--Kernel-->
+  <project name="kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="exynos8890dev-twrp" revision="android-8.1"/>
+
+</manifest>
