@@ -1,0 +1,43 @@
+#!/bin/bash
+clear
+
+if [ -z $@ ]; then
+	export TARGET_DATE=$(date +"%Y%m%d");
+else
+	export TARGET_DATE=$@;
+fi 
+
+export BUILD_USER=chris
+export DEVICE=herolte
+export SYSTEM_PATH=~/LineageOS/17.1_LineageOS
+export OUTPUT_PATH=$SYSTEM_PATH/out/target/product/$DEVICE
+export FILENAME="lineage-17.1-$TARGET_DATE-UNOFFICIAL_microG_ready-$DEVICE.zip"
+export SEARCH_FILENAME="lineage-17.1-$TARGET_DATE*-UNOFFICIAL_microG_ready-$DEVICE.zip"
+export ROMTYPE="unofficial"
+export VERSION="17.1"
+
+cd $SYSTEM_PATH
+
+echo $OUTPUT_PATH
+echo $FILENAME
+echo $SEARCH_FILENAME
+
+if [ -e $OUTPUT_PATH/$SEARCH_FILENAME  ]; then
+	
+	echo "Starte Upload"	
+
+	mv $OUTPUT_PATH/$SEARCH_FILENAME $OUTPUT_PATH/$FILENAME	
+
+	md5sum $OUTPUT_PATH/$FILENAME > $OUTPUT_PATH/$FILENAME".md5sum"	
+	
+	echo "Upload auf OTA-Server"
+	publish_rom.sh
+	
+	echo "FTP-Upload zu AFH"
+	cd $OUTPUT_PATH
+	#rom2ftp.sh $FILENAME
+
+else
+	ls $OUTPUT_PATH/$SEARCH_FILENAME
+	
+fi
