@@ -29,8 +29,10 @@
 
     <!-- Removed Sources -->
     <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
 
     <!-- los-legacy updater  Sources -->
     <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
+    <project path="packages/apps/Settings" name="los-legacy/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
 	
 </manifest>
