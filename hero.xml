@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+     
+    <remote  name="gitlabs"
+           fetch="https://gitlab.com" />
+    
+    <!-- Removed Sources -->
+    <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+    		
+    <!--Device Trees-->
+    <project path="device/samsung/hero2lte" name="8890_pie/android_device_samsung_hero2lte" remote="gitlabs" revision="lineage-17.1" />
+    <project path="device/samsung/herolte" name="8890_pie/android_device_samsung_herolte" remote="gitlabs" revision="lineage-17.1" />
+    <project path="device/samsung/hero-common" name="8890_pie/android_device_samsung_hero-common" remote="gitlabs" revision="lineage-17.1" />
+
+    <!--Kernel-->
+    <project path="kernel/samsung/universal8890" name="ivanmeler/android_kernel_samsung_herolte" remote="gitlabs" revision="lineage-17.1" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/samsung/hero-common" name="8890_pie/proprietary_vendor_samsung_hero-common" remote="gitlabs" revision="lineage-17.1" />
+    <project path="vendor/seal/seal" name="8890_pie/proprietary_vendor_seal_seal" remote="gitlabs" revision="lineage-17.1" />
+	
+    <!-- Hardware -->
+    <project path="hardware/samsung" name="8890_pie/android_hardware_samsung" remote="gitlabs" revision="lineage-17.1" />
+
+    <!-- los-legacy updater  Sources -->
+    <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
+	
+</manifest>
