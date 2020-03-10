@@ -7,7 +7,6 @@
 	
     <!-- Removed Sources -->
     <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-    <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
     <remove-project name="LineageOS/android_hardware_qcom_audio"/>
     <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices"/>
 
@@ -33,6 +32,5 @@
 
     <!-- los-legacy updater  Sources -->
     <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
-    <project path="packages/apps/Settings" name="los-legacy/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
 	
 </manifest>
