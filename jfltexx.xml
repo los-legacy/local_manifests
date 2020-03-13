@@ -6,7 +6,7 @@
            fetch="https://gitlab.com" />
     
     <!--Device Trees-->
-    <project name="LineageOS/android_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github" revision="lineage-17.1" />
+    <project name="LineageOS/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="lineage-17.1" />
     <project name="LineageOS/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="lineage-17.1" />
     <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
 
