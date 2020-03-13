@@ -24,6 +24,5 @@
 
     <!-- Packages -->
     <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
-    <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-17.1" />
 
 </manifest> 
