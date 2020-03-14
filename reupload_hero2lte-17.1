@@ -82,7 +82,7 @@ if [ -e $OUTPUT_PATH/$FILENAME ]; then
 
 	NO_SUCCESS=1
 	while [ "$NO_SUCCESS" != "0" ]; do		
-		ssh $USER@los-legacy.de "cd /opt/lineageos_updater && FLASK_APP=/opt/lineageos_updater/app.py flask addrom --filename $FILENAME --device $DEVICE --version $VERSION --datetime \'"$DATETIME"\' --romtype $ROMTYPE --md5sum $MD5SUM --size "$FILESIZE" --url $URL"
+		ssh $USER@los-legacy.de "cd /opt/lineageos_updater && FLASK_APP=/opt/lineageos_updater/app.py flask addrom --filename $FILENAME --device $DEVICE --version $VERSION --datetime \""$DATETIME"\" --romtype $ROMTYPE --md5sum $MD5SUM --size "$FILESIZE" --url $URL"
 		NO_SUCCESS=$?;	
 	done
 fi
