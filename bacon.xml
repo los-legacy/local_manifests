@@ -19,5 +19,10 @@
   <!-- boringssl -->
   <project  name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-17.1" />
 
+  <!-- Remove Packages -->
+  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+
+  <!-- Packages -->
+  <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
 
 </manifest> 
