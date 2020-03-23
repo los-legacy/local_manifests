@@ -13,7 +13,7 @@
   <project  name="PixelExperience-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="ten" />
   
   <!-- Kernel -->
-  <project name="PixelExperience-Devices/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="ten" />
+  <project name="PixelExperience-Devices/kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="ten" />
 
   <!-- Remove Packages -->
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
