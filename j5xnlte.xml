@@ -23,7 +23,7 @@
     <project name="daywalk3r666/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="github" revision="lineage-17.1"/>
 
     <!-- Vendor folders -->
-    <project name="los-legacy/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1"/>
+    <project name="los-legacy/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="q"/>
     <project name="daywalk3r666/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="lineage-17.1"/>
 	
     <!-- Hardware -->
