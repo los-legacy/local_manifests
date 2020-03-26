@@ -10,9 +10,9 @@
   <project name="crdroidandroid/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="10.0" />
   
   <!-- Vendor -->
-  <project  name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="10.0-oneplus5 " />
+  <project  name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="10.0-oneplus5" />
   <project  name="crdroidandroid/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0" />
-  <project  name="crdroidandroid/android_vendor_addons_onepluscamera" path="vendor/addons/onepluscamera"remote="github" revision="10.0" />
+  <project  name="crdroidandroid/android_vendor_addons_onepluscamera" path="vendor/addons/onepluscamera" remote="github" revision="10.0" />
 
   <!-- Kernel -->
   <project name="crdroidandroid/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0" />
@@ -22,5 +22,4 @@
 
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
-
 </manifest>
