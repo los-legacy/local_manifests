@@ -25,7 +25,7 @@
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
   <!-- interfaces -->
-  <project name=" crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" />
+  <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" />
   <!-- prebuilts -->
   <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6305083" path="prebuilts/clang/host/linux-x86/clang-6305083" remote="github" revision="10.0" />
      
