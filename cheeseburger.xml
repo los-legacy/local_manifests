@@ -20,7 +20,7 @@
   <!-- Remove Packages -->
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <!-- Remove interfaces -->
-  <remove-project path="hardware/interfaces" name=" LineageOS/android_hardware_interfaces" />
+  <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
 
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
