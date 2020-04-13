@@ -6,8 +6,7 @@
            fetch="https://gitlab.com" />
     
   <!-- Device tree -->
-  
-  <project name="crdroidandroid/android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="10.0" />
+  <project name="crdroidandroid/android_device_oneplus_dumpling" path="device/oneplus/cheeseburger" remote="github" revision="10.0" />
   <project name="los-legacy/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="10.0" />
   
   <!-- Vendor -->
@@ -17,13 +16,17 @@
   <!-- Kernel -->
   <project name="crdroidandroid/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0" />
 
+  <!-- Remove sepolicy -->
+  <remove-project path="lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <!-- Remove interfaces -->
+  <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
   <!-- Remove Packages -->
   <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-   <!-- Remove interfaces -->
-  <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
-
+  
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
+  <!-- sepolicy -->
+  <project name="crdroidandroid/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="github" revision="10.0" />
   <!-- interfaces -->
   <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="10.0" />
   <!-- prebuilts -->
