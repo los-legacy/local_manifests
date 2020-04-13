@@ -12,17 +12,22 @@
   <!-- Vendor -->
   <project  name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="10.0-oneplus5" />
   <project  name="crdroidandroid/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0" />
+  <project  name="crdroidandroid/android_vendor_addons_onepluscamera" path="vendor/addons/onepluscamera" remote="github" revision="10.0" />
                   
   <!-- Kernel -->
   <project name="crdroidandroid/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0" />
 
-  <!-- Remove Packages -->
-  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <!-- Remove sepolicy -->
+  <remove-project path="lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <!-- Remove interfaces -->
   <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
-
+  <!-- Remove Packages -->
+  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
+  <!-- sepolicy -->
+  <project name="crdroidandroid/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="github" revision="10.0" />
   <!-- interfaces -->
   <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="10.0" />
   <!-- prebuilts -->
