@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 <manifest>
      
     <remote  name="gitlabs"
@@ -31,5 +29,3 @@
     <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
 	
 </manifest>
-=======
->>>>>>> parent of e5492ba... dream.xml: Add Dream Support
