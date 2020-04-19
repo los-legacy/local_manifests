@@ -24,7 +24,7 @@
     <!-- Hardware -->
     <project path="hardware/samsung" name="SlimShadys/android_hardware_samsung" remote="github" revision="lineage-17.1" />
 	
-    <!-- los-legacy updater  Sources -->
+    <!-- los-legacy updater  Sources 
     <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
-	
+    -->
 </manifest>
