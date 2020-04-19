@@ -25,7 +25,8 @@
     <project path="vendor/samsung/greatlte" name="exynos8895/android_vendor_samsung_greatlte" remote="github" revision="lineage-17.1" />
 
     <!-- Hardware -->
-
+    <project path="hardware/samsung" name="SlimShadys/android_hardware_samsung" remote="github" revision="lineage-17.1" />
+	
     <!-- los-legacy updater  Sources -->
     <project path="packages/apps/Updater" name="los-legacy/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
 	
