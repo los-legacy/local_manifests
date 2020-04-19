@@ -1,7 +1,6 @@
 <manifest>
      
     <remote  name="gitlabs" fetch="https://gitlab.com" />
-    <remote  name="linux4" fetch="https://git.linux4.de/" revision="lineage-17.1" /> />
     
     <!-- Removed Sources -->
     <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
@@ -14,9 +13,6 @@
 
     <!--Kernel-->
     <project path="kernel/samsung/universal8895" name="exynos8895/android_kernel_samsung_universal8895" remote="github" revision="lineage-17.1" />
-    <!--
-    <project path="kernel/samsung/exynos8895" name="exynos8895/android_kernel_samsung_universal8895" remote="github" revision="lineage-17.1" />
-    -->
 	
     <!-- Vendor folders -->
     <project path="vendor/samsung/universal8895-common" name="exynos8895/android_vendor_samsung_universal8895-common" remote="github" revision="lineage-17.1" />
