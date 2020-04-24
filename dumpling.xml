@@ -27,7 +27,7 @@
   <!-- Packages -->
   <project name="los-legacy/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-17.1" />
   <!-- sepolicy -->
-  <project name="crdroidandroid/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="github" revision="10.0" />
+  <project name="los-legacy/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="github" revision="10.0" />
   <!-- interfaces -->
   <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="10.0" />
   <!-- prebuilts -->
