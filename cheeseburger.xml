@@ -14,8 +14,10 @@
   <project  name="crdroidandroid/android_device_oppo_common" path="device/oppo/common" remote="github" revision="10.0" />
                   
   <!-- Kernel -->
-  <project name="crdroidandroid/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0" />
-
+  <project name="crdroidandroid/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="10.0"/>
+  
+  <!-- Removed Updater -->
+  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <!-- Remove sepolicy -->
   <remove-project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <!-- Remove interfaces -->
@@ -30,5 +32,7 @@
   <project name="crdroidandroid/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="10.0" />
   <!-- prebuilts -->
   <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6443078" path="prebuilts/clang/host/linux-x86/clang-6443078" remote="github" revision="10.0" />
+  <!-- los-legacy updater -->
+  <project name="los-legacy/android_packages_apps_Updater-1" path="packages/apps/Updater" remote="github" revision="10.0" />    
      
 </manifest>
