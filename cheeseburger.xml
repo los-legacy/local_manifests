@@ -21,7 +21,11 @@
   <!-- Remove interfaces -->
   <remove-project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <remove-project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" />
- 
+  <!-- Remove frameworks/base -->
+  <remove-project path="frameworks/base"name="LineageOS/android_frameworks_base" />
+     
+<!-- frameworks_base -->
+  <project name="crdroidandroid/android_frameworks_base" path="frameworks/base" remote="github" revision="10.0" />
 <!-- hardware_interfaces -->
   <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="10.0" />
   <!-- sepolicy -->
