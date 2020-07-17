@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Galaxy-MSM8916"
+           fetch="https://github.com"
+           revision="lineage-17.1" />
+
+
+ <!-- Samsung MSM8916 Common Repos -->
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" remote="github" revision="lineage-17.1"/>
+ <!-- Samsung Hardware Repo -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github"/>
+ <!-- Common Samsung MSM8916 Kernel -->
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="lineage-17.1"/>
+ <!-- Vendor Trees (for all devices) -->
+  <project path="proprietary/vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" remote="github" revision="lineage-17.1"/>
+ <!-- Qcom audio  -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8916/audio" name="daywalk3r666/android_hardware_qcom_audio"  remote="github" revision="queso_bringup"/>
+ <!-- Dependencies -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-17.1"/>
+ <!-- Galaxy J5 (2016) -->
+  <project path="device/samsung/j5xnlte" name="daywalk3r666/android_device_samsung_j5xnlte" groups="device" remote="github" revision="queso_bringup" />
+  
+</manifest>
