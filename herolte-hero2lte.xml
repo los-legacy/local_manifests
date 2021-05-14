@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device tree-->
-  <project name="lineageos/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-17.1" remote="github"/>
-<project name="lineageos/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-17.1" remote="github"/>
- <project name="lineageos/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-17.1" remote="github"/>
+  <project name="ivanmeler/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="lineage-16.0"/>
+  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-16.0"/>
+  <project name="Exodusnick/seals_something_anotherhing" path="device/samsung/hero-common" remote="github" revision="lineage-16.0-nobsp"/>
   <!--Hardware-->
-  <project name="lineageos/android_hardware_samsung" path="hardware/samsung" remote="github"/>
+  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0"/>
   <!--Kernel-->
- <project name="lineageos/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" revision="lineage-17.1" remote="github"/>
+  <project name="ivanmeler/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="github" revision="lineage-16.0"/>
   <!--Blobs-->
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="lineage-17.1" remote="github"/>
+  <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-16.0"/>
+  <project name="ivanmeler/proprietary_vendor_seal" path="vendor/seal/seal" remote="github" revision="master"/>
 </manifest>
